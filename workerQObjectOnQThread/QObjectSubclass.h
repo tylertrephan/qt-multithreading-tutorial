@@ -1,12 +1,12 @@
 #ifndef INCLUDED_QOBJECTSUBCLASS_H
 #define INCLUDED_QOBJECTSUBCLASS_H
 
+#include <iostream>
 #include <QObject>
 
-class QObjectSubclass : QObject
+class QObjectSubclass : public QObject
 {
 	Q_OBJECT
-		
 
 	signals:
 		void simpleSignal(unsigned int value);
@@ -15,7 +15,9 @@ class QObjectSubclass : QObject
 
 		void simpleSlot(unsigned int value)
 		{
-			std::cout<<"simpleSlot value: "<<value<<std::endl;
+			std::cout<<"QObjectSubclass::simpleSlot value: "
+				 <<value
+				 <<std::endl;
 		}
 
 };

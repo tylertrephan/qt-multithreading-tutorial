@@ -1,0 +1,69 @@
+qtMain::Creating QThreadSubclass
+qtMain::Creating Worker QObjectSubclass1
+qtMain::Creating Worker QObjectSubclass2
+qtMain::Creating Worker QObjectSubclass3
+qtMain::Creating QThread
+qtMain::Moving qObjectSubclass3 to QThread
+qtMain::Connecting qThreadSubclass's signal to 
+        qObjectSubclass1's slot as a queued connection
+qtMain::Connecting qObjectSubclass1's signal to 
+        qObjectSubclass2's slot as a direct connection
+qtMain::Connecting qObjectSubclass1's signal to 
+        qObjectSubclass3's slot as a queued connection
+qtMain::Connecting qObjectSubclass3's signal to 
+        app's exit slot as a queued connection
+qtMain::Starting qObjectSubclass3's QThread
+qtMain::Starting qThreadSubclass
+qtMain::Starting Main Event Loop - app.exec()
+QThreadSubclass::run()
+QThreadSubclass::sending signal: 1
+QObjectSubclass1::sendSignalSlot value: 1
+QObjectSubclass1::sendSignalSlot emitting signal: 1
+QObjectSubclass2::simpleSlot
+QObjectSubclass2::simpleSlot Finished
+QObjectSubclass1::sendSignalSlot Finished
+QObjectSubclass3::sleepSlot value: 1
+QObjectSubclass3::sleepSlot sleeping
+QThreadSubclass::sending signal: 2
+QObjectSubclass1::sendSignalSlot value: 2
+QObjectSubclass1::sendSignalSlot emitting signal: 2
+QObjectSubclass2::simpleSlot
+QObjectSubclass2::simpleSlot Finished
+QObjectSubclass1::sendSignalSlot Finished
+QObjectSubclass3::sleepSlot Finished
+QObjectSubclass3::sleepSlot value: 2
+QObjectSubclass3::sleepSlot sleeping
+QThreadSubclass::sending signal: 3
+QObjectSubclass1::sendSignalSlot value: 3
+QObjectSubclass1::sendSignalSlot emitting signal: 3
+QObjectSubclass2::simpleSlot
+QObjectSubclass2::simpleSlot Finished
+QObjectSubclass1::sendSignalSlot Finished
+QThreadSubclass::sending signal: 4
+QObjectSubclass1::sendSignalSlot value: 4
+QObjectSubclass1::sendSignalSlot emitting signal: 4
+QObjectSubclass2::simpleSlot
+QObjectSubclass2::simpleSlot Finished
+QObjectSubclass1::sendSignalSlot Finished
+QObjectSubclass3::sleepSlot Finished
+QObjectSubclass3::sleepSlot value: 3
+QObjectSubclass3::sleepSlot sleeping
+QThreadSubclass::sending signal: 5
+QObjectSubclass1::sendSignalSlot value: 5
+QObjectSubclass1::sendSignalSlot emitting signal: 5
+QObjectSubclass2::simpleSlot
+QObjectSubclass2::simpleSlot Finished
+QObjectSubclass1::sendSignalSlot Finished
+QThreadSubclass::Finished
+QObjectSubclass3::sleepSlot Finished
+QObjectSubclass3::sleepSlot value: 4
+QObjectSubclass3::sleepSlot sleeping
+QObjectSubclass3::sleepSlot Finished
+QObjectSubclass3::sleepSlot value: 5
+QObjectSubclass3::sleepSlot sleeping
+QObjectSubclass3::sleepSlot Finished
+QObjectSubclass3::sleepSlot emitting finished()
+qtMain::Quiting qObjectSubclass3's QThread
+qtMain::Waiting qObjectSubclass3's QThread
+qtMain::Waiting qThreadSubclass
+qtMain::Finished

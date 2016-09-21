@@ -1,0 +1,8 @@
+qtMain::Creating QThread
+qtMain::Creating Worker QObjectSubclass
+qtMain::Moving Worker QObjectSubclass to QThread
+qtMain::Starting QThread
+qtMain::Sleeping 1 second
+qtMain::Quiting QThread
+qtMain::Waiting QThread
+qtMain::Finished
