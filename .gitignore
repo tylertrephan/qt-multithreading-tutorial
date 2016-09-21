@@ -27,3 +27,10 @@
 *.exe
 *.out
 *.app
+
+# Qt Moc files
+moc_*
+
+# Qt Generated Makefiles
+Makefile
+
