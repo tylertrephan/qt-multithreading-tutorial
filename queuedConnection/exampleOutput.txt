@@ -1,0 +1,17 @@
+qtMain::Creating Worker QObjectSubclass1
+qtMain::Creating Worker QObjectSubclass2
+qtMain::Creating QThread
+qtMain::Moving qObjectSubclass2 to QThread
+qtMain::Connecting qObjectSubclass1's signal to 
+        qObjectSubclass2's slot as a queued connection
+qtMain::Starting qObjectSubclass2's QThread
+qtMain::qObjectSubclass1 simpleFunction()
+QObjectSubclass1::simpleFunction()
+QObjectSubclass1::simpleFunction(): emitting signal
+QObjectSubclass1::simpleFunction(): Finished
+QObjectSubclass2::simpleSlot value: 3
+QObjectSubclass2::simpleSlot sleeping
+QObjectSubclass2::simpleSlot Finished
+qtMain::Quiting qObjectSubclass2's QThread
+qtMain::Waiting qObjectSubclass2's QThread
+qtMain::Finished
