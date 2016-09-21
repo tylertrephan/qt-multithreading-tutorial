@@ -2,11 +2,11 @@ qtMain::Creating QThreadSubclass
 qtMain::Starting QThread
 qtMain::Sleeping 1 second
 QThreadSubclass::run()
-QThreadSubclass::sending signal: 0
-qtMain::Waiting QThread
 QThreadSubclass::sending signal: 1
+qtMain::Waiting QThread
 QThreadSubclass::sending signal: 2
 QThreadSubclass::sending signal: 3
 QThreadSubclass::sending signal: 4
+QThreadSubclass::sending signal: 5
 QThreadSubclass::Finished
 qtMain::Finished

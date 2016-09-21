@@ -14,7 +14,7 @@ class QThreadSubclass : public QThread
 		void run()
 		{
 			std::cout<<"QThreadSubclass::run()"<<std::endl;
-			for(unsigned int i = 0; i < 5; ++i)
+			for(unsigned int i = 1; i <= 5; ++i)
 			{
 				std::cout<<"QThreadSubclass::sending signal: "
 					 <<i
